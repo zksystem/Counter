@@ -30,11 +30,19 @@
                                     <action selector="counterButtonDidTouchDown:" destination="BYZ-38-t0r" eventType="touchDown" id="Cgf-RG-SvX"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="значение счетчика:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KtR-WV-4Ge">
+                                <rect key="frame" x="117" y="344" width="156" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="KtR-WV-4Ge" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="297" id="6w0-0t-3vl"/>
                             <constraint firstItem="eHL-ut-jFF" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.0995261" id="DFM-Kr-TAd"/>
+                            <constraint firstItem="KtR-WV-4Ge" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="NHH-dd-Q71"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eHL-ut-jFF" secondAttribute="bottom" constant="29" id="SzX-EA-GEc"/>
                             <constraint firstItem="vxb-Kz-374" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="T0G-5S-PmJ"/>
                             <constraint firstItem="vxb-Kz-374" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Twg-J1-i5N"/>
